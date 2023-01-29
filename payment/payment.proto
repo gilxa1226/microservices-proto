@@ -15,3 +15,4 @@ message CreatePaymentResponse {
 
 service Payment {
   rpc Create(CreatePaymentRequest) returns (CreatePaymentResponse){}
+}
